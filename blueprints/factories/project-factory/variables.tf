@@ -215,7 +215,6 @@ variable "vpc" {
       enable_cloud_run_agent           = bool
       enable_cloud_functions_agent     = bool
       enable_app_engine_standard_agent = bool
-      enable_app_engine_flex_agent     = bool
     })
   })
   default = null
